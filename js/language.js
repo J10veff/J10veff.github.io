@@ -71,8 +71,8 @@
     "en": "In <strong>fall 2027</strong>, I will begin my master’s studies in Applied Statistics at the School of Mathematics and Statistics, <a href=\"https://www.xjtu.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Xi’an Jiaotong University</a>, supervised by Prof. Zhandong Mei."
   },
   "text17": {
-    "zh": "我的研究兴趣是<strong>计算机视觉与深度学习</strong>，关注视频生成、世界模型以及三维视觉。目前在北京大学进行科研实习。",
-    "en": "My research interests lie in <strong>computer vision and deep learning</strong>, with a focus on video generation, world models, and 3D vision. I am currently a research intern at Nexus Lab, Peking University."
+    "zh": "我的研究兴趣是<strong>计算机视觉与深度学习</strong>，关注视频生成、世界模型以及三维视觉。",
+    "en": "My research interests lie in <strong>computer vision and deep learning</strong>, with a focus on video generation, world models, and 3D vision."
   },
   "text18": {
     "zh": "欢迎交流研究想法与合作机会。",
