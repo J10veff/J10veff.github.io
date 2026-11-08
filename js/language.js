@@ -10,10 +10,6 @@
     "zh": "申峻豪",
     "en": "Junhao Shen"
   },
-  "text2": {
-    "zh": "个人学术主页",
-    "en": "Academic Homepage"
-  },
   "text3": {
     "zh": "本科在读",
     "en": "Undergraduate Student"
