@@ -59,20 +59,20 @@
     "en": "Honors and Awards"
   },
   "text15": {
-    "zh": "我叫<strong>申峻豪</strong>，来自山东淄博。目前是<a href=\"https://www.xju.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">新疆大学</a>数学与系统科学学院数据科学与大数据技术专业的本科四年级学生。",
-    "en": "I am <strong>Junhao Shen</strong>, from Zibo, Shandong, China. I am a fourth-year undergraduate studying Data Science and Big Data Technology at the College of Mathematics and System Science, <a href=\"https://www.xju.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Xinjiang University</a>."
+    "zh": "我是<strong>申峻豪</strong>，来自山东淄博，现就读于<a href=\"https://www.xju.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">新疆大学</a>数学与系统科学学院，为数据科学与大数据技术专业大四学生。",
+    "en": "I am <strong>Junhao Shen</strong>, a final-year undergraduate majoring in Data Science and Big Data Technology at the College of Mathematics and System Science, <a href=\"https://www.xju.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Xinjiang University</a>. I am originally from Zibo, Shandong, China."
   },
   "text16": {
-    "zh": "我将于 <strong>2027 年秋季</strong>入学<a href=\"https://www.xjtu.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">西安交通大学</a>数学与统计学院，攻读应用统计学硕士，师从梅占东教授。",
-    "en": "In <strong>fall 2027</strong>, I will begin my master’s studies in Applied Statistics at the School of Mathematics and Statistics, <a href=\"https://www.xjtu.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Xi’an Jiaotong University</a>, supervised by Prof. Zhandong Mei."
+    "zh": "我将于 <strong>2027 年秋季</strong>进入<a href=\"https://www.xjtu.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">西安交通大学</a>数学与统计学院攻读应用统计学硕士学位，并在梅占东教授的指导下开展研究。",
+    "en": "In <strong>fall 2027</strong>, I will join the School of Mathematics and Statistics at <a href=\"https://www.xjtu.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Xi’an Jiaotong University</a> to pursue a master’s degree in Applied Statistics under the supervision of Prof. Zhandong Mei."
   },
   "text17": {
-    "zh": "我的研究兴趣是<strong>计算机视觉与深度学习</strong>，关注视频生成、世界模型以及三维视觉。",
-    "en": "My research interests lie in <strong>computer vision and deep learning</strong>, with a focus on video generation, world models, and 3D vision."
+    "zh": "我的研究兴趣集中于<strong>计算机视觉与深度学习</strong>，尤其关注视频生成、世界模型与三维视觉。",
+    "en": "My research interests center on <strong>computer vision and deep learning</strong>, particularly video generation, world models, and 3D vision."
   },
   "text18": {
-    "zh": "欢迎交流研究想法与合作机会。",
-    "en": "I welcome opportunities for research discussions and collaboration."
+    "zh": "欢迎与我交流研究想法，探讨合作机会。",
+    "en": "I am always happy to exchange research ideas and explore opportunities to collaborate."
   },
   "text19": {
     "zh": "扩散模型 · 视频生成 · 世界模型",
@@ -205,6 +205,10 @@
   "text51": {
     "zh": "荣誉",
     "en": "Awards"
+  },
+  "zhihu": {
+    "zh": "知乎",
+    "en": "Zhihu"
   },
   "github": {
     "zh": "代码主页",
