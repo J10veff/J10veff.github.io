@@ -9,3 +9,4 @@
 .language-toggle:hover{background:var(--wash);border-color:#aebdca}
 .profile-subname{letter-spacing:.5px;font-size:13px}
 @media(max-width:760px){.top-nav{gap:10px}.language-toggle{font-size:11px;padding:6px 8px}.profile-avatar{grid-row:1/7}.section h2{overflow-wrap:anywhere}}
+.profile-social-list .social-email{grid-column:1/-1}
