@@ -2,7 +2,9 @@
 
 /* Keep the language control visible while navigation scrolls on small screens. */
 .top-nav{display:flex;align-items:center;gap:16px;overflow:visible}
-.top-nav-links{min-width:0;flex:1;flex-wrap:nowrap;overflow-x:auto}
+.top-nav-links{min-width:0;flex:1;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;padding-bottom:1px}
+.top-nav-links::-webkit-scrollbar{display:none}
+.top-nav-links a:focus-visible{outline-offset:-3px}
 .language-toggle{flex-shrink:0;border:1px solid #dce3ec;border-radius:5px;padding:6px 10px;background:#fff;color:var(--accent);font-size:12px;line-height:1.5;white-space:nowrap}
 .language-toggle:hover{background:var(--wash);border-color:#aebdca}
 .profile-subname{letter-spacing:.5px;font-size:13px}
