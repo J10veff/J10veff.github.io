@@ -1,12 +1,27 @@
 .profile-avatar img{width:140px;height:180px;object-fit:cover;object-position:center 20%}.empty-note{font-size:13px;color:var(--muted)}.award-detail{color:var(--muted);font-size:11px}#awards li{margin-bottom:12px}.profile-info-list{overflow-wrap:anywhere}@media(max-width:760px){.profile-avatar img{width:92px;height:126px}.profile-avatar{grid-row:1/6}.top-nav-links{gap:12px}}@media print{.sidebar{position:static}.top-nav,.profile-social-list{display:none}.layout-wrapper{padding:0;grid-template-columns:180px minmax(0,1fr);gap:30px}.section{break-inside:avoid}.page-footer{margin-top:20px}@page{size:A4;margin:16mm}}
 
-/* Keep the language control visible while navigation scrolls on small screens. */
+/* Keep navigation horizontally scrollable on small screens. */
 .top-nav{display:flex;align-items:center;gap:16px;overflow:visible}
 .top-nav-links{min-width:0;flex:1;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;padding-bottom:1px}
 .top-nav-links::-webkit-scrollbar{display:none}
 .top-nav-links a:focus-visible{outline-offset:-3px}
-.language-toggle{flex-shrink:0;border:1px solid #dce3ec;border-radius:5px;padding:6px 10px;background:#fff;color:var(--accent);font-size:12px;line-height:1.5;white-space:nowrap}
-.language-toggle:hover{background:var(--wash);border-color:#aebdca}
 .profile-subname{letter-spacing:.5px;font-size:13px}
-@media(max-width:760px){.top-nav{gap:10px}.language-toggle{font-size:11px;padding:6px 8px}.profile-avatar{grid-row:1/7}.section h2{overflow-wrap:anywhere}}
+@media(max-width:760px){.top-nav{gap:10px}.profile-avatar{grid-row:1/7}.section h2{overflow-wrap:anywhere}}
 .profile-social-list .social-email{grid-column:1/-1}
+.project-resources{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:10px;font-size:11px}
+.project-status{padding:2px 8px;border:1px solid var(--line);border-radius:4px;background:var(--wash);color:var(--muted)}
+/* A shared logo column keeps every experience's text on the same vertical axis. */
+.exp-card{display:grid;grid-template-columns:150px minmax(0,1fr);column-gap:20px}
+.exp-card>.exp-logo{justify-self:center}
+.exp-logo--tencent{width:110px;border-radius:0}
+.exp-logo--xjtu,.exp-logo--pku{width:150px;border-radius:0}
+@media(max-width:760px){
+  .exp-card{grid-template-columns:110px minmax(0,1fr);column-gap:16px}
+  .exp-logo--tencent{width:86px}
+  .exp-logo--xjtu,.exp-logo--pku{width:110px}
+}
+@media(max-width:480px){
+  .exp-card{grid-template-columns:96px minmax(0,1fr);column-gap:12px}
+  .exp-logo--tencent{width:72px}
+  .exp-logo--xjtu,.exp-logo--pku{width:96px}
+}

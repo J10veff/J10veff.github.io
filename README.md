@@ -14,5 +14,8 @@
 - css/site.css：主页的主样式。
 - css/personal.css：照片比例、移动端和打印适配。
 - js/main.js：导航定位及论文交互支持。
-- js/language.js：完整中英文文案与语言切换；默认中文，浏览器记住上次选择。修改内容时同步更新这里的两种文案和 index.html 中的默认中文。
+- 页面仅提供英文版本，文案直接维护在 index.html 中，无需翻译脚本或语言切换。
 - img/：本人照片与学校校徽。
+- img/tencent-logo.png：腾讯官网使用的经典 Tencent 腾讯完整标识，来源：https://www.tencent.com/wp-content/uploads/2022/12/logo@2x.png。
+- img/pku-horizontal.png：北大官网使用的横版校徽、书法校名与英文名组合（852 × 240），来源：https://www.pku.edu.cn/Uploads/Picture/2019/12/26/s5e04176fbbfa3.png。
+- img/xjtu-horizontal.png：西交官网横版校徽与校名组合（324 × 84），来源：http://www.xjtu.edu.cn/img/logo_pic99.png；保留原图透明度与轮廓，将官网白色标识转换为适合白底的红色。
