@@ -1,0 +1,15 @@
+.album{max-width:1080px;margin:0 auto;padding:38px 28px 48px}
+.back-link,.album-footer{font-size:12px}
+.album-header{margin:38px 0 30px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.album-header h1{font:normal 42px/1.2 var(--serif);margin:8px 0 15px}
+.album-subtitle{font-size:16px;margin:0 0 9px}
+.album-meta{font-size:12px;color:var(--muted);margin:0}
+.photo-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 24px;align-items:start}
+.photo-gallery figure{margin:0;min-width:0}
+.photo-gallery figure:first-child{grid-column:1/-1}
+.photo-gallery a{display:block;border-radius:8px;overflow:hidden;background:var(--wash);border:1px solid var(--line)}
+.photo-gallery img{width:100%;height:auto}
+.photo-gallery figcaption{font-size:12px;color:var(--muted);padding-top:10px;line-height:1.6}
+.photo-number{font-variant-numeric:tabular-nums;color:var(--accent);margin-right:10px}
+.album-footer{margin-top:36px;padding-top:22px;border-top:1px solid var(--line)}
+@media(max-width:640px){.album{padding:24px 18px 32px}.album-header{margin-top:28px}.album-header h1{font-size:32px}.album-subtitle{font-size:14px}.photo-gallery{grid-template-columns:1fr;gap:25px}}

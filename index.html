@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8">
+  <script src="./js/theme.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Junhao Shen | Academic Homepage</title>
   <meta name="description" content="Academic homepage of Junhao Shen: computer vision, video generation, world models, and 3D reconstruction.">
@@ -9,28 +10,30 @@
   <link rel="stylesheet" href="./css/site.css">
   <link rel="stylesheet" href="./css/personal.css">
   <script src="./js/main.js" defer=""></script>
+  <link rel="stylesheet" href="./css/theme.css">
 </head>
 <body>
 <a class="skip-link" href="#about">Skip to content</a>
 <div class="layout-wrapper">
   <aside class="sidebar">
     <div class="sidebar-card">
-      <div class="profile-avatar"><img src="./img/portrait.jpg" alt="Portrait of Junhao Shen" width="140" height="180"></div>
+      <div class="profile-avatar"><img src="./img/avatar.jpg" alt="Illustrated avatar of Junhao Shen" width="140" height="140"></div>
       <h1 class="profile-name">Junhao Shen（申峻豪）</h1>
       <div class="profile-title">Undergraduate Student</div>
-      <div class="profile-org">College of Mathematics and System Science</div>
+      <div class="profile-org">School of Mathematics and System Science</div>
       <div class="profile-dept">Xinjiang University</div>
       <ul class="profile-info-list"><li>Zibo, Shandong, China</li><li>Data Science and Big Data Technology</li></ul>
       <ul class="profile-social-list"><li><a href="https://github.com/J10veff" target="_blank" rel="noopener noreferrer"><svg class="profile-link-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4 1-4-2-6-2m12 5v-4a3.5 3.5 0 0 0-1-2.7c3.3-.4 6.7-1.6 6.7-7.3A5.7 5.7 0 0 0 19.2 4c.2-.9.2-2-.2-3 0 0-1.3-.4-4.2 1.6a14 14 0 0 0-7.6 0C4.3.6 3 1 3 1c-.4 1-.4 2.1-.2 3A5.7 5.7 0 0 0 1.3 8c0 5.7 3.4 6.9 6.7 7.3A3.5 3.5 0 0 0 7 18v4" transform="translate(1 0)"></path></svg><span id="github-label">GitHub</span></a></li><li><a href="https://www.zhihu.com/people/sir-19-12" target="_blank" rel="noopener noreferrer"><svg class="profile-link-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/><path d="M8 9h8M8 13h5"/></svg><span>Zhihu</span></a></li><li class="social-email"><a href="mailto:xjusjh@126.com"><svg class="profile-link-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></svg><span>xjusjh@126.com</span></a></li></ul>
+      <blockquote class="profile-motto">“When you work hard enough and correctly, happiness will knock on the door.”<span class="motto-source">— Inspired by <cite><a href="https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness" target="_blank" rel="noopener noreferrer">The Pursuit of Happyness</a></cite></span></blockquote>
     </div>
   </aside>
   <main class="main-content-area">
     <div class="top-nav"><nav class="top-nav-links" aria-label="Homepage sections">
       <a href="#about" class="active">Biography</a><a href="#research">Research</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#awards">Awards</a>
-    </nav></div>
+    </nav><button class="theme-toggle" type="button" hidden aria-label="Change color theme">◐ Auto</button></div>
     <section class="section" id="about">
       <h2>Biography</h2>
-      <p class="intro-lead">I am <strong>Junhao Shen</strong>, a final-year undergraduate majoring in Data Science and Big Data Technology at the College of Mathematics and System Science, <a href="https://www.xju.edu.cn/" target="_blank" rel="noopener noreferrer">Xinjiang University</a>. I am originally from Zibo, Shandong, China.</p>
+      <p class="intro-lead">I am <strong>Junhao Shen</strong>, a final-year undergraduate majoring in Data Science and Big Data Technology at the School of Mathematics and System Science, <a href="https://www.xju.edu.cn/" target="_blank" rel="noopener noreferrer">Xinjiang University</a>. I am originally from Zibo, Shandong, China.</p>
       <p>In <strong>fall 2027</strong>, I will join the School of Mathematics and Statistics at <a href="https://www.xjtu.edu.cn/" target="_blank" rel="noopener noreferrer">Xi’an Jiaotong University</a> to pursue a master’s degree in Applied Statistics under the supervision of Prof. Zhandong Mei.</p>
       <p>My research interests center on <strong>computer vision and deep learning</strong>, particularly video generation, world models, and 3D vision.</p>
       <p class="contact-note">I am always happy to exchange research ideas and explore opportunities to collaborate.</p>
@@ -39,13 +42,12 @@
       <h2>Research Interests</h2>
       <p>Diffusion Models · Video Generation · World Models</p>
       <p>3D Scene Reconstruction · 3D Vision · Structure from Motion · Target Matching</p>
-      <p class="contact-note">Undergraduate study interests: causal inference, graph networks, and Bayesian inference.</p>
     </section>
     <section class="section" id="education">
       <h2>Education</h2>
       <ul class="edu-list">
-        <li class="edu-card"><div class="edu-logo-wrap"><img class="edu-logo" src="./img/xian-jiaotong-university.png" alt="Xi’an Jiaotong University emblem" loading="lazy" width="46" height="46"></div><div class="edu-meta"><div class="edu-top"><span class="edu-org">Xi’an Jiaotong University</span><span class="edu-time">2027 – 2030 (planned)</span></div><div class="edu-sub"><span class="edu-role">Incoming Master’s Student · Fall 2027</span><span class="edu-note">School of Mathematics and Statistics · Applied Statistics</span></div><div class="edu-desc">Supervisor: Prof. Zhandong Mei<br>Research interests: video generation, world models, 3D vision, and 3D reconstruction.</div></div></li>
-        <li class="edu-card"><div class="edu-logo-wrap"><img class="edu-logo" src="./img/xinjiang-university.png" alt="Xinjiang University emblem" loading="lazy" width="46" height="46"></div><div class="edu-meta"><div class="edu-top"><span class="edu-org">Xinjiang University</span><span class="edu-time">2023 – 2027 (expected)</span></div><div class="edu-sub"><span class="edu-role">Undergraduate Student</span><span class="edu-note">College of Mathematics and System Science · Data Science and Big Data Technology</span></div><div class="edu-desc">Undergraduate study interests: causal inference, graph networks, and Bayesian inference.</div></div></li>
+        <li class="edu-card"><div class="edu-logo-wrap"><img class="edu-logo" src="./img/xian-jiaotong-university.png" alt="Xi’an Jiaotong University emblem" loading="lazy" width="46" height="46"></div><div class="edu-meta"><div class="edu-top"><span class="edu-org">Xi’an Jiaotong University</span><span class="edu-time">2027 – 2030 (planned)</span></div><p class="edu-distinction" lang="zh-CN">国家首批“211工程”“985工程”“双一流”重点建设高校</p><div class="edu-sub"><span class="edu-role">Incoming Master’s Student · Fall 2027</span><span class="edu-note">School of Mathematics and Statistics · Applied Statistics</span></div><div class="edu-desc">Supervisor: Prof. Zhandong Mei<br>Research interests: video generation, world models, 3D vision, and 3D reconstruction.</div></div></li>
+        <li class="edu-card"><div class="edu-logo-wrap"><img class="edu-logo" src="./img/xinjiang-university.png" alt="Xinjiang University emblem" loading="lazy" width="46" height="46"></div><div class="edu-meta"><div class="edu-top"><span class="edu-org">Xinjiang University</span><span class="edu-time">2023 – 2027 (expected)</span></div><p class="edu-distinction" lang="zh-CN">国家首批“211工程”“双一流”重点建设高校</p><div class="edu-sub"><span class="edu-role">Undergraduate Student</span><span class="edu-note">School of Mathematics and System Science · Data Science and Big Data Technology</span></div><div class="edu-desc">Undergraduate study interests: causal inference, graph networks, and Bayesian inference.</div></div></li>
       </ul>
     </section>
     <section class="section" id="experience">
@@ -62,31 +64,30 @@
     </section>
     <section class="section" id="projects">
       <h2>Selected Projects</h2>
-      <p class="section-note">Planned research projects. Implementations, demos, and results will be added as the work progresses.</p>
       <ul class="project-list">
-        <li class="project-card project-card-text">
-          <span class="project-index" aria-hidden="true">01</span>
+        <li class="project-card project-card-preview">
+          <div class="project-preview-placeholder project-preview-filled"><img src="./img/video-to-3d-concept.png" alt="Video-to-3D project concept preview" width="120" height="120" loading="lazy"></div>
           <div class="project-content">
             <h3 class="project-title">Video-to-3D: Robust Reconstruction and Interactive Rendering</h3>
-            <span class="project-keywords">3D Reconstruction · VGGT · Gaussian Splatting</span>
+            <span class="project-keywords"><strong>Research Interests:</strong> 3D Reconstruction · VGGT · Gaussian Splatting</span>
             <p class="project-desc">Planned: a reproducible pipeline from captured video to camera poses, scene geometry, and interactive Gaussian rendering, with an emphasis on keyframe selection and reconstruction robustness.</p>
             <div class="project-resources"><span class="project-status">Planning</span><a href="https://github.com/J10veff/video-to-3d" target="_blank" rel="noopener noreferrer">Private repository ↗</a></div>
           </div>
         </li>
-        <li class="project-card project-card-text">
-          <span class="project-index" aria-hidden="true">02</span>
+        <li class="project-card project-card-preview">
+          <div class="project-preview-placeholder" aria-hidden="true"></div>
           <div class="project-content">
             <h3 class="project-title">Streaming Video Generation: Latency and Memory Optimization</h3>
-            <span class="project-keywords">Video Generation · Self Forcing · KV Cache</span>
+            <span class="project-keywords"><strong>Research Interests:</strong> Video Generation · Self Forcing · KV Cache</span>
             <p class="project-desc">Planned: benchmark and optimize autoregressive video generation based on Self Forcing, studying first-chunk latency, cache policies, decoding efficiency, and quality–speed trade-offs.</p>
             <div class="project-resources"><span class="project-status">Planning</span><a href="https://github.com/J10veff/streaming-video-generation" target="_blank" rel="noopener noreferrer">Private repository ↗</a></div>
           </div>
         </li>
-        <li class="project-card project-card-text">
-          <span class="project-index" aria-hidden="true">03</span>
+        <li class="project-card project-card-preview">
+          <div class="project-preview-placeholder" aria-hidden="true"></div>
           <div class="project-content">
             <h3 class="project-title">Action-Conditioned World Models: Persistent State and Physical Consistency</h3>
-            <span class="project-keywords">Video World Models · Action Control · Physical Consistency</span>
+            <span class="project-keywords"><strong>Research Interests:</strong> Video World Models · Action Control · Physical Consistency</span>
             <p class="project-desc">Planned: investigate state persistence and physical consistency in action-conditioned video rollouts, focusing on scene revisits, occlusion, and accumulated generation drift.</p>
             <div class="project-resources"><span class="project-status">Planning</span><a href="https://github.com/J10veff/action-world-model" target="_blank" rel="noopener noreferrer">Private repository ↗</a></div>
           </div>
@@ -95,7 +96,7 @@
     </section>
     <section class="section" id="awards">
       <h2>Honors and Awards</h2>
-      <ul><li><strong>National Second Prize</strong>, China Undergraduate Mathematical Contest in Modeling (Higher Education Press Cup, Undergraduate Division)（高教社杯全国大学生数学建模竞赛）, 2025<br><span class="award-detail">Xinjiang University · Advisor: Prof. Demin Liu</span></li><li><strong>National Third Prize</strong>, National College Student Market Survey and Analysis Competition (Zhengda Cup, Undergraduate Division)（正大杯全国大学生市场调查与分析大赛）, 2025<br><span class="award-detail">Xinjiang University · Advisor: Prof. Zhiming Li</span></li></ul>
+      <ul><li><strong>National Second Prize</strong>, China Undergraduate Mathematical Contest in Modeling (Higher Education Press Cup, Undergraduate Division)（高教社杯全国大学生数学建模竞赛）, 2025 <a class="award-photo-link" href="./cumcm-2025-photos.html" lang="zh-CN">现场照片 ↗</a><br><span class="award-detail">Xinjiang University · Advisor: Prof. Demin Liu</span></li><li><strong>National Third Prize</strong>, National College Student Market Survey and Analysis Competition (Zhengda Cup, Undergraduate Division)（正大杯全国大学生市场调查与分析大赛）, 2025<br><span class="award-detail">Xinjiang University · Advisor: Prof. Zhiming Li</span></li></ul>
     </section>
     <footer class="page-footer"><p>© 2026 Junhao Shen</p><p>Last updated: November 12, 2026</p></footer>
   </main>
